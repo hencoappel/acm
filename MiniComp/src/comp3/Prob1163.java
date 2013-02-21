@@ -2,7 +2,9 @@ package comp3;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-
+/**
+ * http://poj.org/
+ */
 class Main2 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));

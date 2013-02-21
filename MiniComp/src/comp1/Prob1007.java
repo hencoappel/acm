@@ -8,7 +8,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
-
+/**
+ * http://poj.org/
+ */
 class Main2 {
 
 	public static void main2(String[] args) {
