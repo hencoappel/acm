@@ -4,7 +4,9 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
+/**
+ * http://poj.org/
+ */
 class Main1 {
 	public static void main2(String[] args) {
 

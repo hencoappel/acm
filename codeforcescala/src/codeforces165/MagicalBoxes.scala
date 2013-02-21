@@ -1,14 +1,14 @@
 package codeforces165
 import scala.collection.Set
+import scala.collection.immutable.List
 
 object MagicalBoxes extends App {
 
   val n = readInt //num tests
-  val threads = readLine.split(' ').map(_.toInt)
-
-  var i = t - 1;
-  while (i > 0 && threads(i) > threads(i - 1)) {
-    i -= 1
+  var list:List[Array[Int]] = Nil
+  
+  for(i <- 0 until n){
+    list = list :: readLine.split(' ').map(_.toInt)
   }
-  println(i)
+  
 }
